@@ -27,23 +27,9 @@ The data pipeline is built on the following AWS services:
 
 ![image](https://github.com/user-attachments/assets/c84844f3-d5c4-49a9-8009-80f35fe7e97f)
 
-The source database contains the following tables:
-- **Customers**
-- **Products**
-- **Product Lines**
-- **Orders**
-- **Order Details**
-- **Payments**
-- **Employees**
-- **Offices**
-
 ## Pipeline Workflow
 
 1. **Data Exploration:** Query and explore the sample MySQL database stored in Amazon RDS.
 2. **ETL Process:** Use AWS Glue to extract the data from the MySQL database, transform it as needed, and load it into Amazon S3.
 3. **Data Querying:** Use Amazon Athena to query the data stored in S3, making it available for analysis.
 4. **Data Visualization:** Build a dashboard using Jupyter Lab to visualize the queried data.
-
----
-
-Let me know if you'd like to adjust anything!
