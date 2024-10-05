@@ -14,7 +14,7 @@ As a Data Engineer, my responsibility is to design and implement a data pipeline
 
 ## Architecture
 
-![image](https://github.com/user-attachments/assets/42b3fe24-bf24-495b-b089-b3646c1479bc)
+![aws_c1_w2 drawio](https://github.com/user-attachments/assets/53648956-fde3-48e9-88e4-b9083a972199)
 
 The data pipeline is built on the following AWS services:
 - **Amazon RDS (Relational Database Service):** Hosts the source MySQL database.
